@@ -47,6 +47,9 @@
 	print_r($array2);
 	echo "<br/>";
 
+	// print mother key of array2
+	echo $array2['mother'];
+
 	?>
 
 	
