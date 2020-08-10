@@ -22,6 +22,26 @@
 
 
  */
+// Step 1
+ function calc1(){
+	 $n1 = 50;
+	 $n2 = 4;
+	 $sum = $n1 * $n2;
+	 return $sum;
+ }
+
+ // Got this from the answers...
+ $theSum = calc1();
+echo $theSum;
+echo "<br/>";
+
+ // Step 2
+ function calc2($num1, $num2) {
+	 $sum = $num1 * $num2;
+	 echo $sum;
+ }
+
+ calc2(12,24);
 
 	
 ?>
