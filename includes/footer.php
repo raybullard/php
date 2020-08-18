@@ -1,3 +1,12 @@
+<?php 
+	/*print '<pre>';
+	print_r($_SERVER);
+	print '</pre>';*/
+	print '<div class="main-content col-xs-8" style="font-weight: bold;">';
+	highlight_file($_SERVER['SCRIPT_FILENAME']);
+	print '</div>';
+	
+?>
 
 </section><!--CONTENT-->
 	</div><!--Container-->

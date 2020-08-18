@@ -49,6 +49,8 @@
 	echo join($string);
 	echo "<br/>";
 
+	$debug_stack
+
 	//Step 3
 	echo "<h2>Step 3</h2>"; 
 	$array = [12, 1, 92, 1494, $string];
